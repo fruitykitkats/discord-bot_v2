@@ -1,0 +1,21 @@
+{
+
+    "Hook": {
+        "name":"Hook",
+        "group":"User",
+        "desc":"Returns a hook in the channel.",
+        "usgae":"hook <title>,<description>,[color],[avatarURL]"
+    },
+    "Weather": {
+        "name":"Weather",
+        "group":"User",
+        "desc":"Returns the weather to the channel.",
+        "usgae":"weather <location>"
+    },
+    "Clear": {
+        "name":"Clear",
+        "group":"Moderator",
+        "desc":"Clears a specific number of messages",
+        "usgae":"clear <messages>"
+    }
+}
