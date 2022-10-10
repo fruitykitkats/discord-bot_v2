@@ -1,4 +1,4 @@
-// Copyright (c) 2020 Azura Apple. All rights reserved. MIT license.
+// Copyright (c) 2020 FruityKitKats. All rights reserved.
 
 // Packages:
 const Discord = require("discord.js"); // `npm i discord.js`

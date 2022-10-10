@@ -1,4 +1,4 @@
-// Copyright (c) 2020 Azura Apple. All rights reserved. MIT license.
+// Copyright (c) 2020 FruityKitKats. All rights reserved.
 
 module.exports = { // This basically works like every normal package you use.
 
