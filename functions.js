@@ -1,7 +1,6 @@
-// Copyright (c) 2020 FruityKitKats. All rights reserved.
+// Copyright (c) 2017 FruityKitKats. All rights reserved.
 
 module.exports = { // This basically works like every normal package you use.
-
     ping: function(channel) { 
         channel.send("Pong!");
     },
@@ -38,8 +37,8 @@ module.exports = { // This basically works like every normal package you use.
                             .catch(error => { 
                                 console.log(error)
                                 return channel.send("**Something went wrong when sending the webhook. Please check out console.**");
-                            })
-                    })
+                            });
+                    });
             } else { 
                 foundHook.send('', { 
                     "username": title,
@@ -50,12 +49,10 @@ module.exports = { // This basically works like every normal package you use.
                     }]
                 })
                     .catch(error => { 
-                        console.log(error)
+                        console.log(error);
                         return channel.send("**Something went wrong when sending the webhook. Please check out console.**");
-                })
-        
-
+                });
             }
-       })
+       });
     }
-}
+};
